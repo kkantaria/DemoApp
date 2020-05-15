@@ -1,0 +1,52 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css"; 
+
+$themecolor: #1C85EB;
+$light: #F3F9FE;
+$light-text: #798699;
+.mat-checkbox-checked.mat-accent .mat-checkbox-background{
+    background: $themecolor !important;
+    }
+
+    .mat-form-field-appearance-outline .mat-form-field-prefix, .mat-form-field-appearance-outline .mat-form-field-suffix {
+        top: auto
+    }
+
+    .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+        color: $themecolor;
+    }
+
+    
+.mat-form-field-appearance-outline .mat-form-field-outline{
+    top: 0 !important;
+}
+
+.mat-form-field-infix
+{border: 0;}
+
+.mat-form-field-appearance-outline .mat-form-field-outline-thick .mat-form-field-outline-end, .mat-form-field-appearance-outline .mat-form-field-outline-thick .mat-form-field-outline-gap, .mat-form-field-appearance-outline .mat-form-field-outline-thick .mat-form-field-outline-start {
+    border-width: 1.5px !important;
+}
+
+.mat-form-field-appearance-outline.mat-form-field-disabled .mat-form-field-outline {
+    background: #F2F3F4;
+}
+
+.mat-input-element:focus {
+    color: $themecolor;
+  }
+
+  .mat-focused .mat-form-field-suffix .mat-icon, .mat-datepicker-toggle{
+    color: $themecolor;
+  }
+
+  .mat-form-field-appearance-outline .mat-form-field-prefix, .mat-form-field-appearance-outline .mat-form-field-suffix {
+    top: 0.5em !important;
+}
+.mat-calendar-body-selected {
+    background-color: $themecolor;;
+}
